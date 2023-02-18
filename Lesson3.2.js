@@ -1,4 +1,7 @@
-  let n = 12345;
-  let newn = n.toString;
-  newn.split([' ', 5]);
-  console.log(newn);
+let a = 12345;
+let b = a.toString();
+let num = b.split([]);
+console.log(num); 
+
+let joined = num.join(' ');
+console.log(joined); 
